@@ -12,9 +12,9 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'cd main && ./hello_exec'
-                echo 'Testing completed'
+                echo 'Testing completed
             }
-        }
+        
         
         stage('Deploy') {
             steps {
